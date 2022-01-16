@@ -8,7 +8,12 @@ import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { UserComponent } from './user/user.component';
 import { Page404Component } from './page404/page404.component';
+
+
+//module
 import { FormsModule } from '@angular/forms';
+
+//service
 import { ProfileService } from './profile.service';
 
 
