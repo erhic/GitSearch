@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { UserComponent } from './user/user.component';
 import { Page404Component } from './page404/page404.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { Page404Component } from './page404/page404.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
