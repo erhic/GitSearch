@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { RepoComponent } from './repo/repo.component';
 import { UserComponent } from './user/user.component';
+import { Page404Component } from './page404/page404.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UserComponent } from './user/user.component';
     NavbarComponent,
     HomeComponent,
     RepoComponent,
-    UserComponent
+    UserComponent,
+    Page404Component
   ],
   imports: [
     BrowserModule,
