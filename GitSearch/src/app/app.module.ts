@@ -12,6 +12,7 @@ import { Page404Component } from './page404/page404.component';
 
 //module
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 //service
 import { ProfileService } from './profile.service';
