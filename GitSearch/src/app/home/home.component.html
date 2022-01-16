@@ -1,1 +1,13 @@
-<p>home works!</p>
+<p>home</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-8 col-md-6">
+            <div class="card" *ngFor="let profiles of profile">
+                <img class="card-img-top" src="{{profiles.image}}" alt="">
+                <div class="card-body">
+                    <h4 class="cart-title">{{profiles.title}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
