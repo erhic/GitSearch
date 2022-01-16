@@ -9,6 +9,7 @@ import { RepoComponent } from './repo/repo.component';
 import { UserComponent } from './user/user.component';
 import { Page404Component } from './page404/page404.component';
 import { FormsModule } from '@angular/forms';
+import { ProfileService } from './profile.service';
 
 
 @NgModule({
@@ -25,7 +26,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
