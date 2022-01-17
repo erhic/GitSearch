@@ -13,10 +13,11 @@ import { Page404Component } from './page404/page404.component';
 //module
 import { FormsModule } from '@angular/forms';
  import { HttpClientModule } from '@angular/common/http';
-import { HttpClient } from '@angular/common/http';
+
 
 //service
 import { ProfileService } from './profile.service';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -26,13 +27,15 @@ import { ProfileService } from './profile.service';
     HomeComponent,
     RepoComponent,
     UserComponent,
-    Page404Component
+    Page404Component,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+   
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
