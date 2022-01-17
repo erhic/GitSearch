@@ -1,18 +1,18 @@
 <app-form (searchuser)="searchNewUser($event)"></app-form>
-<div *ngIf="user">
-    <p>
+<div class="container bg-light mt-5 gx-5" *ngIf="user">
+    <p class="fw-bold text-center">
         {{user.login}}
     </p>
-    <p>
+    <p class="fw-bold">
         {{user.name}}
     </p>
-    <p>
-        {{user.avatar_url}}
+    <p class="fw-bold">
+        <img src="{{user.avatar_url}}" alt="" srcset="">
     </p>
-    <p>
+    <p class="fw-bold">
         {{user.bio}}
     </p>
-    <p>
+    <p class="fw-bold">
         {{user.followers}}
     </p>
 
