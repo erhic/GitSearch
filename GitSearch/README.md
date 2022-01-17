@@ -2,26 +2,50 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+### Author:  [Eric N](https://github.com/erhic/quotes_vote_app)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Description
+----
+    This is a web application where one can create,search for github user and repesitory.Details of user repository are given on searching ,that is the repository.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Technologies Used
+----
+- HTML
+- CSS
+- TYPESCRIPT
+- BOOTSTRAP
+- ANGULAR
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Installion Process
+----
+* To run the application ,the required tools required is mainly a browser application example like google chrome and access to the internet. To access the aplication online <kbd>click</kbd> (https://github.com/erhic/quotes_vote_app).
+The application can run a mobile device or a computer.
 
-## Running end-to-end tests
+* To use the application offline in your local device;
+*Create a folder in you local device the proceed and clone the site using the link (git clone git@github.com:erhic/quotes_vote_app.gitgit)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Run the following command to install all the packages required<br>
+<kbd>npm install</kbd><br>
+Add the following to start development server<br>
+<kbd>npm start</kbd>.
+Open the browser and navigate to the directed port to see the application in action
 
-## Further help
+### Bug
+----
+There is no identified bug.
+### Contacts
+----
+For feedback or any information pertaining this project feel free to reach me through :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Email: ericgichovi@moringa.student.com
+
+### Licence 
+---
+
+[ LICENCE](LICENSE) 
+ (link to MIT License )
+
