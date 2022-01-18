@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+#userpage {
+    margin-top: -75px;
+    height: 93vh;
+    background-image: url(src/assets/images2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

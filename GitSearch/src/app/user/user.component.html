@@ -1,21 +1,24 @@
 <app-form (searchuser)="searchNewUser($event)"></app-form>
-<div class="container bg-light mt-5 gx-5" *ngIf="user">
-    <p class="fw-bold text-center">
-        {{user.login}}
-    </p>
-    <p class="fw-bold">
-        {{user.name}}
-    </p>
-    <p class="fw-bold">
-        <img src="{{user.avatar_url}}" alt="" srcset="">
-    </p>
-    <p class="fw-bold">
-        {{user.bio}}
-    </p>
-    <p class="fw-bold">
-        {{user.followers}}
-    </p>
-
-
-
+<div id="userpage">
+    <p>Find user here</p>
+    <div class="card mb-3 container bg-dark text-white mt-5 p-5" style="max-width: 1200px;" *ngIf="user">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{{user.avatar_url}}" class="img-fluid rounded-pill" alt="...">
+            </div>
+            <div class="col-md-8 ">
+                <div class="card-body px-5 fs-3">
+                    <h5 class="card-title fs-2">Name: {{user.name}}</h5>
+                    <p class="card-text">Username: {{user.login}}</p>
+                    <!-- <p class="card-text">Blog: {{user.blog}}</p> -->
+                    <p class="card-text">{{user.html_url}}</p>
+                    <!-- <p class="card-text">{{user.location}}</p> -->
+                    <p class="card-text">Bio:{{user.bio}}</p>
+                    <p class="card-text">Public Repos: {{user.public_repos}}</p>
+                    <p class="card-text">Followers: {{user.followers}}<br> Following: {{user.following}}</p>
+                    <p class="card-text">Date created: {{user.created_at|date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
