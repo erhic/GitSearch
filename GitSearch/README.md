@@ -10,7 +10,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Description
 ----
     This is a web application where one can create,search for github user and repesitory.Details of user repository are given on searching ,that is the repository.
-
+### Screenshot
+<img src="src/assets/images/Scrsht.png"> 
 
 ### Technologies Used
 ----
