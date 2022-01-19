@@ -8,4 +8,5 @@ body {
     background-image: url(src/assets/images2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
