@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+#repopage {
+    margin-top: -45px;
+    height: 93vh;
+    background-image: url(src/assets/gitimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#repo {
+    margin-top: 70px;
+    font-size: 24px;
+}

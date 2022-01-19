@@ -5,6 +5,7 @@ import { Repository } from './repository';
 import { environment } from 'src/environments/environment';
 // import { resolve } from 'dns';
 // import { rejects } from 'assert';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -49,7 +50,9 @@ fetchRequest(name:string){
      return promise
    })
 }
-
+fetchRepo(name:string):Observable<Repository[]>{
+  return this.httpClient.get<Repository[]>('https://api.github.com' +/users/ + name + "/repos")
+ }
   constructor( private httpClient:HttpClient) {
 this.user=new Users("","","","","","","",new Date(),0,0,0)
   }

@@ -1,0 +1,16 @@
+<app-form (searchuser)="searchNewUser($event)"></app-form>
+<div id="repopage">
+    <dir *ngIf="repo" id="repo" class="text-white d-flex  mt-5 row g-2">
+        <div *ngFor="let repo of repo " class="col-md-4 p-2 text-dark bg-info ">
+            <h5 class="card-title fs-2">Repo Name: {{repo.name}}</h5>
+            <p class="card-text"> <span class="text-center">Repo Description:</span> <br>{{repo.description}}</p>
+            <!-- <p class="card-text">Blog: {{repo.blog}}</p> -->
+            <p class="card-text">Forks:{{repo.forks}}</p>
+            <!-- <p class="card-text">{{repo.location}}</p> -->
+            <p class="card-text">Language :{{repo.language}}</p>
+            <p class="card-text">Watch: {{repo.watchers_count}}</p>
+            <p class="card-text">Date created: {{repo.created_at|date}}</p>
+        </div>
+
+    </dir>
+</div>

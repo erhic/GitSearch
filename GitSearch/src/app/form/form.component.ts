@@ -11,6 +11,7 @@ formInput= new Users("","","","","","","",new Date(),0,0,0)
 @Output()searchuser:EventEmitter<string>=new EventEmitter<string>()
 search(){
   this.searchuser.emit(this.formInput.login)
+  this.formInput=new Users("","","","","","","",new Date(),0,0,0)
 }
   ngOnInit(): void {
   }
