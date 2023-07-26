@@ -42,7 +42,7 @@ There is no identified bug.
 ----
 For feedback or any information pertaining this project feel free to reach me through :
 
-Email: ericgichovi@moringa.student.com
+Email: ericngugi24@gmail.com
 
 ### Licence 
 ---
